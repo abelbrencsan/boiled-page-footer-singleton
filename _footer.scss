@@ -1,0 +1,115 @@
+/* Footer singleton */
+footer.footer {
+	background-color: $border-bg-color;
+	padding: $section-padding 0 ($section-padding - $element-margin) 0;
+
+	div.footer-nav {
+
+		h1, h2, h3, h4, h5, h6 {
+			font-size: $normal-font-size;
+		}
+
+		p, ul.footer-nav-group {
+			margin-bottom: ($element-margin * 0.5);
+		}
+
+		ul.footer-nav-group {
+			list-style: none;
+			padding-left: 0;
+
+			> li {
+				border-top: 1px solid $border-color;
+				padding-left: 0;
+				padding: 0.55rem 0;
+
+				> a, > button {
+					color: inherit;
+					display: block;
+
+					body.no-touch &:hover {
+						color: $link-color;
+					}
+				}
+
+				> a {
+					text-decoration: none;
+				}
+
+				> button {
+					background-color: transparent;
+					border: none;
+					cursor: pointer;
+					padding: 0;
+					text-align: left;
+					width: 100%;
+				}
+
+				&:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+				&:last-child {
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+
+	hr {
+		margin-bottom: ($element-margin * 0.5);
+	}
+
+	div.footer-info {
+		align-items: flex-end;
+		display: flex;
+		font-size: $small-font-size;
+		justify-content: space-between;
+
+		> div.footer-info-legal > ul, > div.footer-info-links > ul {
+			display: flex;
+			list-style: none;
+			margin-left: ($box-padding * -1);
+			padding-left: 0;
+
+			> li {
+				padding-left: $box-padding;
+
+				> a, > button {
+					color: inherit;
+
+					body.no-touch &:hover {
+						color: $link-color;
+					}
+				}
+
+				> a {
+					text-decoration: none;
+				}
+
+				> button {
+					background-color: transparent;
+					border: none;
+					cursor: pointer;
+					padding: 0;
+				}
+			}
+		}
+	}
+
+	@include breakpoint('medium') {
+
+		div.footer-info {
+			display: block;
+			text-align: center;
+
+			> div.footer-info-legal > ul, > div.footer-info-links > ul {
+				justify-content: center;
+			}
+
+			> div.footer-info-legal > ul {
+				margin-bottom: ($element-margin * 0.5);
+			}
+		}
+	}
+}
