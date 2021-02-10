@@ -61,19 +61,11 @@ footer.footer {
 	}
 
 	div.footer-info {
-		align-items: flex-end;
-		display: flex;
 		font-size: $small-font-size;
-		justify-content: space-between;
 
-		> div.footer-info-legal > ul, > div.footer-info-links > ul {
-			display: flex;
-			list-style: none;
-			margin-left: ($box-padding * -1);
-			padding-left: 0;
+		div.footer-info-legal > ul, div.footer-info-links > ul {
 
 			> li {
-				padding-left: $box-padding;
 
 				> a, > button {
 					color: inherit;
@@ -95,19 +87,22 @@ footer.footer {
 				}
 			}
 		}
+
+		div.footer-info-legal > ul {
+			padding-top: ($block-margin * 0.5);
+		}
 	}
 
 	@include breakpoint('medium') {
 
 		div.footer-info {
-			display: block;
 			text-align: center;
 
-			> div.footer-info-legal > ul, > div.footer-info-links > ul {
+			div.footer-info-legal > ul, div.footer-info-links > ul {
 				justify-content: center;
 			}
 
-			> div.footer-info-legal > ul {
+			div.footer-info-legal > ul {
 				margin-bottom: ($element-margin * 0.5);
 			}
 		}

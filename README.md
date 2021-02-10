@@ -76,32 +76,38 @@ The following example shows a footer with a short description, two navigation gr
     </div>
     <hr />
     <div class="footer-info">
-      <div class="footer-info-legal">
-        &copy; 2018 My Company. All rights reserved.
-        <ul>
-          <li>
-            <a href="#">Terms of service</a>
-          </li>
-          <li>
-            <a href="#">Privacy policy</a>
-          </li>
-          <li>
-            <a href="#">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-info-links">
-        <ul>
-          <li>
-            <a href="#">Link 1</a>
-          </li>
-          <li>
-            <a href="#">Link 2</a>
-          </li>
-          <li>
-            <a href="#">Link 3</a>
-          </li>
-        </ul>
+      <div class="grid grid--between grid--middle">
+        <div class="grid-col grid-col--medium--full">
+          <div class="footer-info-legal">
+            &copy; 2018 My Company. All rights reserved.
+            <ul class="grid grid--gutter grid--gutter--half grid--uniform">
+              <li class="grid-col">
+                <a href="#">Terms of service</a>
+              </li>
+              <li class="grid-col">
+                <a href="#">Privacy policy</a>
+              </li>
+              <li class="grid-col">
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-col grid-col--medium--full">
+          <div class="footer-info-links">
+            <ul class="grid grid--gutter grid--gutter--half grid--uniform">
+              <li class="grid-col">
+                <a href="#">Link 1</a>
+              </li>
+              <li class="grid-col">
+                <a href="#">Link 2</a>
+              </li>
+              <li class="grid-col">
+                <a href="#">Link 3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
