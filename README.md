@@ -28,80 +28,88 @@ The following example shows a footer with a short description, two navigation gr
 ```html
 <footer class="footer">
   <div class="container">
-    <div class="footer-nav grid grid--gutter grid--gutter--double">
-      <div class="grid-col grid-col--1of2 grid-col--small--full">
-        <h2>About company</h2>
-        <p>Ornare interdum nascetur enim lobortis nunc amet placerat pellentesque nascetur in adipiscing. Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan. rnare interdum nascetur enim lobortis nunc amet placerat pellentesque. Interdum amet placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non.</p>
-      </div>
-      <div class="grid-col grid-col--1of4 grid-col--small--1of2 grid-col--xsmall--full">
-        <h2>Navigation</h2>
-        <ul class="footer-nav-group">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Products</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div class="grid-col grid-col--1of4 grid-col--small--1of2 grid-col--xsmall--full">
-        <h2>Help center</h2>
-        <ul class="footer-nav-group">
-          <li>
-            <a href="#">Ornare interdum</a>
-          </li>
-          <li>
-            <a href="#">Nascetur enim</a>
-          </li>
-          <li>
-            <a href="#">massa amet</a>
-          </li>
-          <li>
-            <a href="#">Nascetur nunc</a>
-          </li>
-          <li>
-            <a href="#">Nascetur nunc</a>
-          </li>
-        </ul>
+    <div class="footer-nav">
+      <div class="grid grid--gutter grid--gutter--double">
+        <div class="grid-col grid-col--1of2 grid-col--small--full">
+          <h2>About company</h2>
+          <p>Ornare interdum nascetur enim lobortis nunc amet placerat pellentesque nascetur in adipiscing. Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan. rnare interdum nascetur enim lobortis nunc amet placerat pellentesque. Interdum amet placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non.</p>
+        </div>
+        <div class="grid-col grid-col--1of4 grid-col--small--1of2 grid-col--xsmall--full">
+          <h2>Navigation</h2>
+          <ul class="footer-nav-group">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Products</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-col grid-col--1of4 grid-col--small--1of2 grid-col--xsmall--full">
+          <h2>Help center</h2>
+          <ul class="footer-nav-group">
+            <li>
+              <a href="#">Ornare interdum</a>
+            </li>
+            <li>
+              <a href="#">Nascetur enim</a>
+            </li>
+            <li>
+              <a href="#">massa amet</a>
+            </li>
+            <li>
+              <a href="#">Nascetur nunc</a>
+            </li>
+            <li>
+              <a href="#">Nascetur nunc</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <hr />
-    <div class="footer-info grid grid--between grid--middle">
-      <div class="footer-info-legal grid-col grid-col--medium--full">
-        &copy; 2018 My Company. All rights reserved.
-        <ul class="grid grid--gutter grid--gutter--half grid--uniform">
-          <li class="grid-col">
-            <a href="#">Terms of service</a>
-          </li>
-          <li class="grid-col">
-            <a href="#">Privacy policy</a>
-          </li>
-          <li class="grid-col">
-            <a href="#">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-info-links grid-col grid-col--medium--full">
-        <ul class="grid grid--gutter grid--gutter--half grid--uniform">
-          <li class="grid-col">
-            <a href="#">Link 1</a>
-          </li>
-          <li class="grid-col">
-            <a href="#">Link 2</a>
-          </li>
-          <li class="grid-col">
-            <a href="#">Link 3</a>
-          </li>
-        </ul>
+    <div class="footer-info">
+      <div class="grid grid--between grid--middle">
+        <div class="grid-col grid-col--medium--full">
+          <div class="footer-info-legal">
+            &copy; 2018 My Company. All rights reserved.
+            <ul class="grid grid--gutter grid--gutter--half grid--uniform">
+              <li class="grid-col">
+                <a href="#">Terms of service</a>
+              </li>
+              <li class="grid-col">
+                <a href="#">Privacy policy</a>
+              </li>
+              <li class="grid-col">
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-col grid-col--medium--full">
+          <div class="footer-info-links">
+            <ul class="grid grid--gutter grid--gutter--half grid--uniform">
+              <li class="grid-col">
+                <a href="#">Link 1</a>
+              </li>
+              <li class="grid-col">
+                <a href="#">Link 2</a>
+              </li>
+              <li class="grid-col">
+                <a href="#">Link 3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>

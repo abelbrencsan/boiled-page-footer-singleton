@@ -3,7 +3,7 @@ footer.footer {
 	background-color: $border-bg-color;
 	padding: $section-padding 0 ($section-padding - $element-margin) 0;
 
-	div.footer-nav.grid {
+	div.footer-nav {
 
 		h1, h2, h3, h4, h5, h6 {
 			font-size: $normal-font-size;
@@ -60,10 +60,10 @@ footer.footer {
 		margin-bottom: ($element-margin * 0.5);
 	}
 
-	div.footer-info.grid {
+	div.footer-info {
 		font-size: $small-font-size;
 
-		div.footer-info-legal.grid-col > ul, div.footer-info-links.grid-col > ul {
+		div.footer-info-legal > ul, div.footer-info-links > ul {
 
 			> li {
 
@@ -88,21 +88,21 @@ footer.footer {
 			}
 		}
 
-		div.footer-info-legal.grid-col > ul {
+		div.footer-info-legal > ul {
 			padding-top: ($block-margin * 0.5);
 		}
 	}
 
 	@include breakpoint('medium') {
 
-		div.footer-info.grid {
+		div.footer-info {
 			text-align: center;
 
-			div.footer-info-legal.grid-col > ul, div.footer-info-links.grid-col > ul {
+			div.footer-info-legal > ul, div.footer-info-links > ul {
 				justify-content: center;
 			}
 
-			div.footer-info-legal.grid-col > ul {
+			div.footer-info-legal > ul {
 				margin-bottom: ($element-margin * 0.5);
 			}
 		}
