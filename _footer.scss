@@ -67,7 +67,7 @@ footer.footer {
 		font-size: $small-font-size;
 		justify-content: space-between;
 
-		div.footer-info-legal > ul.footer-info-legal-link-list, ul.footer-info-contact-list {
+		div.footer-info-legal > ul.footer-info-legal-link-list, ul.footer-info-contact-list.grid {
 
 			> li {
 
@@ -102,12 +102,12 @@ footer.footer {
 		div.footer-info {
 			text-align: center;
 
-			div.footer-info-legal, ul.footer-info-contact-list {
+			div.footer-info-legal, ul.footer-info-contact-list.grid {
 				flex: 0 0 100%;
 				max-width: 100%;
 			}
 
-			div.footer-info-legal > ul.footer-info-legal-link-list, ul.footer-info-contact-list {
+			div.footer-info-legal > ul.footer-info-legal-link-list, ul.footer-info-contact-list.grid {
 				justify-content: center;
 			}
 
