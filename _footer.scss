@@ -67,7 +67,7 @@ footer.footer {
 		font-size: $small-font-size;
 		justify-content: space-between;
 
-		div.footer-info-legal > ul.footer-info-legal-link-list, ul.footer-info-contact-list.grid {
+		div.footer-info-legal > ul.footer-info-legal-link-list.grid, ul.footer-info-contact-list.grid {
 
 			> li {
 
@@ -107,11 +107,11 @@ footer.footer {
 				max-width: 100%;
 			}
 
-			div.footer-info-legal > ul.footer-info-legal-link-list, ul.footer-info-contact-list.grid {
+			div.footer-info-legal > ul.footer-info-legal-link-list.grid, ul.footer-info-contact-list.grid {
 				justify-content: center;
 			}
 
-			div.footer-info-legal > ul.footer-info-legal-link-list {
+			div.footer-info-legal > ul.footer-info-legal-link-list.grid {
 				margin-bottom: ($element-margin * 0.5);
 				padding-top: $block-margin;
 			}
