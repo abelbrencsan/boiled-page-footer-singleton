@@ -19,7 +19,7 @@ Class name | Description | Example
 `footer-info` | Applies information area inside footer that contains copyright, legal and contact links. | `<div class="footer-info"></div>`
 `footer-info-legal` | Applies legal area inside footer information. | `<div class="footer-info-legal"></div>`
 `footer-info-legal-link-list` | Applies a list of links inside footer information legal. Grid component is used for alignment. | `<ul class="footer-info-legal-link-list grid"></ul>`
-`footer-info-contact` | Applies a list of contact links inside footer information. Grid component is used for alignment. | `<ul class="footer-info-contact-list grid"></ul>`
+`footer-info-contact-list` | Applies a list of contact links inside footer information. Grid component is used for alignment. | `<ul class="footer-info-contact-list grid"></ul>`
 
 ### Examples
 
